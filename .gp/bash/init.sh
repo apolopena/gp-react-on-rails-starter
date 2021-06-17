@@ -9,6 +9,12 @@
 #
 
 if [[ ! -f .gp/bash/locks/starter.lock ]]; then
+  # Move, rename or merge any internal starter project files that need it
+  [[ -f "LICENSE" && -d ".gp" && ! -f .gp/LICENSE ]] && mv -f LICENSE .gp/LICENSE
+  [[ -f "README.md" && -d ".gp" && ! -f .gp/README.md ]] && mv -f README.md .gp/README.md
+  [[ -f "CHANGELOG.md" && -d ".gp" && ! -f .gp/CHANGELOG.md ]] && mv -f CHANGELOG.md .gp/CHANGELOG.md
+  
+  # Set up project starter, one-time operation
   bundle install && rake db:create && gp sync-done task1 &&
   bash .gp/bash/scaffold-react.sh && gp sync-done task2 &&
   yes | bash .gp/bash/configure-new.sh && gp sync-done task3 &&
