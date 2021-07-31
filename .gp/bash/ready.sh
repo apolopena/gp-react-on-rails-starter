@@ -98,5 +98,8 @@ else
     orange "The development server and preview browser have been closed"
     echo -e "$c_green""To start the development server again, run:$c_end$c_blue dserver start$c_end"
     echo -e "$c_green""To open the preview again run something like:$c_end$c_blue op hello_world$c_end"
+    echo -e "$c_green""To check the status of the database, run:$c_end$c_blue pg_ctl status$c_end"
+    echo -e "$c_green""To start the database, run:$c_end$c_blue pg_start$c_end"
+    echo -e "$c_green""To stop the database, run:$c_end$c_blue pg_stop$c_end"
   fi
 fi
