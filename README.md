@@ -1,4 +1,10 @@
-# React on Rails Starter 
+# React on Rails Starter
+<a href="https://www.ruby-lang.org/en/"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby is a dynamic, open source programming language with a focus on simplicity and productivity" width="70" ></a>
+<a href="https://reactjs.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Bash  A Unix shell and command language written by Brian Fox for the GNU Project" width="115" ></a>
+<a href="https://rubyonrails.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" alt="Ruby on Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages" width="170" ></a>
+<a href="https://www.gitpod.io/"><img src="https://gitpod.io/static/media/gitpod.2cdd910d.svg" alt="Gitpod - Spin up fresh, automated dev environments
+for each task, in the cloud, in seconds" width="70" ></a>
+
 This is a 'starter' project designed to get you up and running very quickly with Ruby and React using [react_on_rails](https://github.com/shakacode/react_on_rails) and a few other useful [dependencies](https://github.com/apolopena/gp-react-on-rails-starter/blob/main/package.json).
 
 This starter uses the [Gitpod](https://www.gitpod.io/) platform to spin up a full fledged `react_on_rails` cloud based IDE development environment using VSCode, Docker and Kubernetes. You can use this scaffolding as a starting point for your own Ruby/React projects.
