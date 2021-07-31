@@ -3,7 +3,7 @@
   "private": false,
   "license": "MIT",
   "dependencies": {
-    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-react": "^7.14.5",
     "@rails/webpacker": "5.4.0",
     "animate.css": "^4.1.1",
     "autoprefixer": "^9",
