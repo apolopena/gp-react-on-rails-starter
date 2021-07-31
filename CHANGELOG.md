@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/apolopena/gp-react-on-rails-starter/tree/HEAD)
+## [1.0.0](https://github.com/apolopena/gp-react-on-rails-starter/tree/1.0.0) (2021-07-31)
 
-[Full Changelog](https://github.com/apolopena/gp-react-on-rails-starter/compare/0.0.1...HEAD)
+[Full Changelog](https://github.com/apolopena/gp-react-on-rails-starter/compare/0.0.1...1.0.0)
 
 **Implemented enhancements:**
 
