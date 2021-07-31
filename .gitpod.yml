@@ -16,7 +16,8 @@ ports:
     visibility: private
 
 tasks:
-  - init: |
+  - before: bash .gp/bash/before-tasks.sh
+    init: |
       bash .gp/bash/init.sh
   - openMode: split-right
     command: |
