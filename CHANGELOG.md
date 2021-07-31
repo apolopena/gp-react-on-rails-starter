@@ -17,6 +17,7 @@
 **Closed issues:**
 
 - Add bug and feature request templates [\#4](https://github.com/apolopena/gp-react-on-rails-starter/issues/4)
+- Create a CHANGELOG.md [\#3](https://github.com/apolopena/gp-react-on-rails-starter/issues/3)
 
 ## [0.0.1](https://github.com/apolopena/gp-react-on-rails-starter/tree/0.0.1) (2021-06-17)
 
