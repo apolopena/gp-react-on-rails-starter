@@ -97,7 +97,7 @@ task_c() {
 main() {
   clear
   if [[ ! -f .gp/bash/locks/starter.lock ]]; then
-    setup_one_time_msg; task1; task2; task3; task_complete_msg; git_msg; preview
+    setup_one_time_msg; task1; task2; task3; tasks_complete_msg; git_msg; preview
   else
     if [[ $(bash .gp/bash/helpers.sh is_inited) == 0 ]]; then
       setup_msg; task_a; task_b; task_c; 
