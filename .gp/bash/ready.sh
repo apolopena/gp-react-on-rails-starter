@@ -119,8 +119,6 @@ main() {
   fi
 }
 
-#main
-tasks_complete_msg
-git_msg
+main
 
 
