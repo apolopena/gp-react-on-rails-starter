@@ -118,3 +118,5 @@ main() {
   fi
 }
 
+main
+
