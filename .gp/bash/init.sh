@@ -5,7 +5,7 @@
 #
 # init.sh
 # Description:
-# Conditional project setup
+# Conditional project initialization
 #
 
 if [[ ! -f .gp/bash/locks/starter.lock ]]; then
@@ -21,7 +21,7 @@ if [[ ! -f .gp/bash/locks/starter.lock ]]; then
   if [[ ! -d .gp/bash/locks ]]; then mkdir .gp/bash/locks; fi
   touch .gp/bash/locks/starter.lock
   bash .gp/bash/helpers.sh mark_as_inited
-  bash -ic 'dserver start' & sleep 20 && gp sync-done server-ready
+  bash -ic 'dserver start' & sleep 22 && gp sync-done server-ready
 else
   # Hook: if puma is installed, then assume that bundle install has already been called
   if [[ $(gem list puma -i) == 'false' ]]; then 
@@ -33,7 +33,7 @@ else
     yarn
   fi
   gp sync-done task_b
-  # Hook: check if demo_development db exists in postgresql. if not create itm  
+  # Hook: If demo_development db does not exists in postgresq, create it.  
   if  [[ -z $( psql -tAc "SELECT 1 FROM pg_database WHERE datname='demo_development'" ) ]]; then
     rake db:create
   fi
